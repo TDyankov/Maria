@@ -1,0 +1,104 @@
+header
+{
+	background: url("../images/MariaHeader.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-color: #BCED91;
+    padding: 2%;
+}
+
+body{
+	padding: 4%;
+	margin: 2%;
+}
+
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase
+}
+  
+nav{
+	text-align: center;
+	border-style: solid;
+	margin: 2%;
+	border-radius: 5px;
+	padding: 5px;
+	height: 500px;
+}
+
+nav a
+{	
+	display: block;
+	color: #564246;
+	font-size: 150%;
+	text-decoration: underline;
+	width: 100px;
+}
+
+.active{color: #0db9f2;}
+
+h2{color: #512ADE;
+  text-transform: uppercase;
+  padding: 10px}
+
+.right {
+	background: #ECF3A6;
+	width: 55%;
+	float: right;
+}
+
+.left {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	height: 100px;
+	min-height: 100%;
+	min-width: 30%;
+}
+
+img{
+	display: inline-block;
+	border-style: solid;
+	text-align: center;
+	border-radius: 5px;
+	width: 300px;
+	float: left;
+}
+
+table {padding: 5px;
+  margin: auto;
+  font-family: Arial;
+  width: 80%
+}
+
+table tr th {    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */;
+ border-style: solid;
+  border-bottom-width: thick;
+ border-top-left-radius: 8%;
+border-top-right-radius: 8%;
+color: #512ADE;}
+
+
+table tr td:first-child {text-align: left}
+
+table tr td:nth-child(2) {text-align: center}
+
+table tr td:nth-child(3) {text-align: center}
+
+tr {opacity: .6}
+tr:hover {opacity: 1}
+
+table tr td {padding: 3px;
+  color: #121212;
+    background-color: #AAAAAA;
+  border-radius: 2px;
+  text-shadow: 1px 1px #FF0000
+}
