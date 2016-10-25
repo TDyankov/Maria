@@ -1,6 +1,7 @@
+
 header
 {
-	background: url("../images/MariaHeader.jpg");
+	background: transparent url("../images/MariaHeader.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,54 +12,124 @@ header
 }
 
 body{
-	padding: 4%;
-	margin: 2%;
+	font: 75% georgia, sans-serif;	
+	padding: 0;
+	margin: 0;
 }
 
 h1{
 	text-align: center;
 	color: #FFFFFF;
-	text-transform: uppercase
+	text-transform: uppercase;
+}
+
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+a:hover, a:focus, a:active 
+{ 
+	text-decoration: underline; 
+	color: #9685BA;
+}	
+
+
+ul 
+{
+	list-style-image: url('../images/tag.gif');
+}
+
+li 
+{
+	font: normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	
+}
+
+abbr 
+{
+	border-bottom: none;
+}
+	
+
+p 
+{
+	margin-top: 0;
+	font-size: 26px;
+	text-align: justify;	
 }
   
+span {
+	font-size: 26px;
+}
+  
+details {
+	font-size: 26px;
+	font-style: italic;
+}  
+
 nav{
-	text-align: center;
-	border-style: solid;
-	margin: 2%;
-	border-radius: 5px;
-	padding: 5px;
-	height: 500px;
+	text-align: center;	
 }
 
 nav a
 {	
+	padding-top: 22%;
 	display: block;
-	color: #564246;
-	font-size: 150%;
+	;color: #564246;
+	font-size: 250%;
 	text-decoration: underline;
-	width: 100px;
+	text-align: center;
 }
 
-.active{color: #0db9f2;}
+.active
+{
+	color: #42e5f4;
+}
 
-h2{color: #512ADE;
-  text-transform: uppercase;
-  padding: 10px}
+h2
+{
+	color: #512ADE;
+	text-transform: uppercase;
+	padding: 10px;
+}
 
-.right {
-	background: #ECF3A6;
-	width: 55%;
+.right 
+{
+	width: 80%;
+	height : 100%;
+	min-height: 100%;
 	float: right;
 }
-
-.left {
+.left 
+{
+	background: transparent url("../images/Board.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;		
 	display: inline-block;
 	float: left;
-	width: 40%;
-	height: 100px;
-	min-height: 100%;
-	min-width: 30%;
+	width: 200px;
+	min-width: 200px;
+	height: 700px;
+	min-height: 700px;
 }
+
+
 
 img{
 	display: inline-block;
@@ -69,36 +140,51 @@ img{
 	float: left;
 }
 
-table {padding: 5px;
-  margin: auto;
-  font-family: Arial;
-  width: 80%
+
+.pinboard 
+{
+	min-height: 100%;	
+	background: url("../images/pinboard.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 964px;
+	height: 700px;
 }
 
-table tr th {    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, yellow); /* Standard syntax */;
- border-style: solid;
-  border-bottom-width: thick;
- border-top-left-radius: 8%;
-border-top-right-radius: 8%;
-color: #512ADE;}
+table.pinboard  tr td  
+{
+	text-align: center;
+	min-height: 10%;
+	height: 100px;
+	width: 500px;
+	opacity: .6;
+}
+
+table.pinboard tr:hover 
+{
+	opacity: .6;
+}
+
+table.pinboard tr td:hover 
+{
+	opacity: 1;
+}
+
+table.pinboard tr td a
+{
+	background: transparent;
+	border: none;
+}
+
+table.pinboard tr td a img
+{
+	background: transparent;
+	border: none;
+	opacity: 1;
+}
 
 
-table tr td:first-child {text-align: left}
-
-table tr td:nth-child(2) {text-align: center}
-
-table tr td:nth-child(3) {text-align: center}
-
-tr {opacity: .6}
-tr:hover {opacity: 1}
-
-table tr td {padding: 3px;
-  color: #121212;
-    background-color: #AAAAAA;
-  border-radius: 2px;
-  text-shadow: 1px 1px #FF0000
+#MyAnimationID {
+	display: inline-block;
+	width: 200px;
 }
